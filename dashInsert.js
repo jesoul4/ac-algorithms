@@ -9,7 +9,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 */
 
 /**
-Examples:
+Ex)
 
 var result = dashInsert("454793");
 console.log(result) // "4547-9-3"
