@@ -54,6 +54,6 @@ function swapCase(str) {
     var result1 = swapCase("Hello World");
     var result2 = swapCase(" ")
     var result3 = swapCase("oh, Hello!!");
-    console.log(result1, result2, result3);
+    // console.log(result1, result2, result3);
 
 }
