@@ -48,12 +48,12 @@ function isPrime(num) {
         }
     }
 
-    //     console.log(isPrime(1));
-    //     console.log(isPrime(2));
-    //     console.log(isPrime(3));
-    //     console.log(isPrime(4));
-    //     console.log(isPrime(29));
-    //     console.log(isPrime(51));
+    console.log(isPrime(1));
+    console.log(isPrime(2));
+    console.log(isPrime(3));
+    console.log(isPrime(4));
+    console.log(isPrime(29));
+    console.log(isPrime(51));
 
     // for (let i = 2; i < n; i++) {
     //     if (n % i === 0) {
