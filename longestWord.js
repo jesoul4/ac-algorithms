@@ -32,3 +32,24 @@ function findLongestWord(str) {
     return longestWord;
 }
 findLongestWord("What if we try a super-long word such as otorhinolaryngology");
+
+
+// refactered (.map())
+function findLongestWord(str) {
+    let wordsArr = str.split(" ");
+    let longestWord = 0;
+    wordsArr.map((word) => (strSplit[i].length > longestWord) ? longestWord = strSplt[i].length : null);
+    return longestWord;
+}
+
+
+
+
+// .filter()
+var printLongWords = (str) => {
+    let stringSplit = str.split(" ");
+    let longWords = stringSplit.filter(word => word.length >= 10);
+    return longWords;
+}
+var longWords1 = printLongWords("What if we try a super-long word such as otorhinolaryngology");
+console.log(longWords1);
