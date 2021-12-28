@@ -34,6 +34,14 @@ console.log(result) // "ghimmnorstyy"
 **/
 
 function alphabetSoup(str) {
-	//Your code here
-	
+    //Your code here
+    let splitApplied = str.split("");
+    console.log(splitApplied);
+    let sortApplied = splitApplied.sort();
+    console.log(sortApplied);
+    let joinApplied = sortApplied.join();
+    console.log(joinApplied);
+    return joinApplied;
 }
+var result = alphabetSoup("hello");
+console.log(result);
